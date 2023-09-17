@@ -1,0 +1,164 @@
+body {
+  background-color: #eadbc8;
+  color: #0f141e;
+  font: normal 16px "Roboto", sans-serif;
+  height: 1500px;
+}
+
+/* * {
+  padding: 0;
+  margin: 0; */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+a:visited {
+  color: black;
+}
+
+.photo {
+  border-radius: 28px;
+  width: 200px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+.info p {
+  color: black;
+  margin: 0;
+  font-style: none;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* letter-spacing: ; */
+}
+/* box model */
+.container {
+  width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+/* .social {
+  background: #176b87;
+  border: 5px solid #053b50;
+} */
+/* box-sizing: box-border; */
+.bg-yellow {
+  background-color: #ffeeaa;
+}
+.bg-green {
+  background-color: #c4a484;
+}
+.bg-red {
+  background-color: #ffaa66;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0px 20px;
+  /* list-style: none; */
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.list li {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #9a3b3b;
+}
+/* .table tr:nth-child(even) {
+  background-color: red;
+} */
+/* .table tr:nth-child(odd) {
+  background-color: red;
+} */
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: coral;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+.btn:hover {
+  background-color: darkorange;
+  transform: scale(1.05);
+}
